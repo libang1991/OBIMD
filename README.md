@@ -1,5 +1,7 @@
 # Oracle Bone Inscriptions Multi-modal Dataset (OBIMD)
+
 ## Dataset Overview
+
 The Oracle Bone Inscriptions Multi-modal Dataset (OBIMD) is the first large-scale corpus providing pixel-aligned rubbings and facsimiles, character-level annotations, and sentence-level transcriptions and reading sequences for oracle bone inscription (OBI) research. This dataset enables multi-modal learning across visual, structural, and linguistic dimensions, laying the foundation for end-to-end OBI recognition and interpretation.
 ![图片](figures/overview.png)
 
@@ -41,7 +43,6 @@ The dataset follows a three-level hierarchy:
 3. Character annotations: Bounding boxes and classifications
 4. Sentence groupings: Semantic organization of characters
 5. Reading sequences: Order of characters within sentences
-
 ![图片](figures/Pipeline%20for%20constructing.png)
 
 ## Usage Notes
