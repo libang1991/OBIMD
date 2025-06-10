@@ -1,7 +1,3 @@
-Here's a concise English introduction to the **Oracle Bone Multimodal Dataset (OBIMD)** based on its Hugging Face repository:
-
----
-
 ### Oracle Bone Multimodal Dataset (OBIMD)  
 **Overview**  
 OBIMD is a pioneering multimodal dataset for **oracle bone script research**, combining visual, textual, and structural data. It bridges ancient Chinese writing systems with modern computational analysis.
