@@ -5,6 +5,10 @@
 The Oracle Bone Inscriptions Multi-modal Dataset (OBIMD) is the first large-scale corpus providing pixel-aligned rubbings and facsimiles, character-level annotations, and sentence-level transcriptions and reading sequences for oracle bone inscription (OBI) research. This dataset enables multi-modal learning across visual, structural, and linguistic dimensions, laying the foundation for end-to-end OBI recognition and interpretation.
 ![图片](figures/overview.png)
 
+### Hugging Face Mirror
+
+This dataset is also available on Hugging Face Hub:<a href="https://huggingface.co/datasets/libang1991/OBIMD">🤗OBIMD Dataset</a>
+
 ## Dataset Statistics
 
 - Total OBI images: 10,077 across five Shang Dynasty phases
@@ -25,6 +29,7 @@ The dataset follows a three-level hierarchy:
 ## Data Fields
 
 |Field Name|Description|Example|
+|-|-|-|
 |Facsimile|Path to facsimile image|/DXData/moben_6327/h00002.jpg|
 |Rubbing|Path to rubbing image|/DXData/tapian_10000/h00002.jpg|
 |RubbingName|Short identifier|H2|
