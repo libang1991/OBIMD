@@ -171,7 +171,7 @@ if __name__ == "__main__":
             names = batch['name']
             lines = batch['line']
             boxes = batch['box']
-            outputs = model(input_ids, input_posv, input_posv, attention_mask)  # [B, T, T] (每个token对应原始位置)
+            outputs = model(input_ids, input_posv, input_posh, attention_mask)  # [B, T, T] (每个token对应原始位置)
             pred_positions = outputs.argmax(dim=-1)     # [B, T]
           
             mask = (labels != -100)                     # 忽略 padding

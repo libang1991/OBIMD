@@ -62,7 +62,7 @@ if __name__ == "__main__":
             attention_mask = batch["attention_mask"].cuda()
             labels = batch["labels"].cuda()
     
-            outputs = model(input_ids, input_posv, input_posv, attention_mask)  # [B, T, vocab] or [B, T, T]
+            outputs = model(input_ids, input_posv, input_posh, attention_mask)  # [B, T, vocab] or [B, T, T]
             
             loss_cls = criterion(outputs.view(-1, outputs.size(-1)), labels.view(-1))
 
