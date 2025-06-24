@@ -9,7 +9,7 @@ The Oracle Bone Inscriptions Multi-modal Dataset (OBIMD) is the first large-scal
 
 ### Hugging Face Mirror
 
-This dataset is also available on Hugging Face Hub:<a href="https://huggingface.co/datasets/libang1991/OBIMD">🤗OBIMD Dataset</a>
+This dataset is also available on Hugging Face Hub:<a href="https://huggingface.co/datasets/KLOBIP/OBIMD">🤗OBIMD Dataset</a>
 
 ## Dataset Statistics
 
