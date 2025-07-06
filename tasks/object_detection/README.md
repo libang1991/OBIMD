@@ -1,4 +1,4 @@
-# OBIMD YOLOv8 Training
+# OBIMD Object Detection Training
 
 We use the Ultralytics YOLO framework to train a model on the OBIMD dataset.
 The training is based on the official `yolov11l.pt` pre-trained weights.
