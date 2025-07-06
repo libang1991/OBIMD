@@ -12,4 +12,4 @@ model.train(data='path/to/obimd.yaml', epochs=100)
 
 ---
 
-and all code we put to [](./train.py)
+and all code we put to [train file](./train.py)
