@@ -64,11 +64,11 @@ The dataset is designed to support various research tasks:
 ## Technical Validation
 
 ### character-level detection
-
+We benchmark oracle bone character detection and recognition using a four-way setting across image types (rubbing vs. facsimile) and character types (main vs. sub-character). Models are trained with YOLOv11l and evaluated on mAP, precision, recall, and F1 metrics. Results confirm the dataset’s effectiveness while also revealing difficulties in detecting blurred strokes and handling highly varied character shapes.
 ### sentence-level clustering
-
+This task groups characters into sentence-level clusters based on category and layout. We evaluate using standard clustering metrics such as AMI, NMI, ARI, and Purity. The results demonstrate promising intra-cluster consistency, while inter-sentence confusion suggests room for improvement in complex layouts.
 ### character-level reordering
-
+We assess sequential modeling of oracle bone inscriptions by recovering original reading order in shuffled sentences. A Transformer-based model predicts positional indices, achieving over 75% top-1 accuracy on main characters. These results show the feasibility of structure-aware ordering despite script irregularities.
 ## Citation
 
 If you use this dataset in your research, please cite:
