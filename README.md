@@ -32,8 +32,8 @@ The dataset follows a three-level hierarchy:
 
 |Field Name|Description|Example|
 |-|-|-|
-|Facsimile|Path to facsimile image|moben/h00002.jpg|
-|Rubbing|Path to rubbing image|tapian/h00002.jpg|
+|Facsimile|Path to facsimile image|facsimile/h00002.jpg|
+|Rubbing|Path to rubbing image|rubbing/h00002.jpg|
 |RubbingName|Short identifier|H2|
 |GroupCategory|Sentence type|InscriptionSentence1|
 |Position|Bounding box (x,y,w,h)|558,581,80,218|
@@ -51,6 +51,14 @@ The dataset follows a three-level hierarchy:
 4. Sentence groupings: Semantic organization of characters
 5. Reading sequences: Order of characters within sentences
 ![图片](figures/Pipeline%20for%20constructing.png)
+
+## Hierarchical Character Metadata Supplement
+
+This folder contains supporting materials for the character hierarchy used in OBIMD. It includes:
+
+1. Sub-character Images: Images of sub-character variants, stored in a two-level folder structure. The top-level directory is named by the main character UID, and each subfolder is named by the corresponding sub-character UID.
+2. Sub-character to Transcription Mapping: Maps each sub-character UID to its modern Chinese transcription.
+3. Sub-character to Main-character Mapping: Maps each sub-character UID to its parent main character UID in the Oracular Digital Platform.
 
 ## Usage Notes
 
