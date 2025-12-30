@@ -73,7 +73,7 @@ The dataset is designed to support various research tasks:
 
 environment prepare:
 ``` shell
-conda create --name obimd python==3.12.12\
+conda create --name obimd python==3.12.12
 conda activate obimd
 pip install -r tasks/requirements.txt
 ```
