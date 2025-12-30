@@ -1,7 +1,7 @@
 numpy==2.4.0
 Pillow==12.0.0
-scikit-learn==1.16.3
+scikit-learn==1.8.0
 torch==2.5.1
 tqdm==4.67.1
 transformers==4.52.3
-ultralytics==8.3.78
+ultralytics
