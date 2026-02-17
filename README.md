@@ -9,7 +9,7 @@ The Oracle Bone Inscriptions Multi-modal Dataset (OBIMD) is the first large-scal
 
 ### Hugging Face Mirror
 
-This dataset is also available on Hugging Face Hub:<a href="https://huggingface.co/datasets/KLOBIP/OBIMD">🤗OBIMD Dataset</a>
+This dataset is available on Hugging Face Hub:<a href="https://huggingface.co/datasets/KLOBIP/OBIMD">🤗OBIMD Dataset</a>
 
 ## Dataset Statistics
 
@@ -57,8 +57,9 @@ The dataset follows a three-level hierarchy:
 This folder contains supporting materials for the character hierarchy used in OBIMD. It includes:
 
 1. Sub-character Images: Images of sub-character variants, stored in a two-level folder structure. The top-level directory is named by the main character UID, and each subfolder is named by the corresponding sub-character UID.
-2. Sub-character to Transcription Mapping: Maps each sub-character UID to its modern Chinese transcription.
-3. Sub-character to Main-character Mapping: Maps each sub-character UID to its parent main character UID in the Oracular Digital Platform.
+2. Sub-character to Glyph Code Point Mapping (XLSX): Maps each sub-character UID to the platform-specific glyph code point used by the Oracular Digital Platform font.
+3. Sub-character to Main-character Mapping (XLSX): Maps each sub-character UID to its parent main character UID in the Oracular Digital Platform.
+4. Main-character → Reference Modern Character (JSON): For each main-character UID, the JSON provides a platform-provided reference modern Chinese character (a standardized surrogate used for lookup and navigation). Note: this mapping is for reference only and is not intended as a final philological interpretation, since oracle bone inscriptions decipherment remains ongoing.
 
 ## Usage Notes
 
