@@ -78,7 +78,7 @@ conda create --name obimd python==3.12.12
 conda activate obimd
 pip install -r tasks/requirements.txt
 ```
-We provide a demo for character-level detection for the OBIMD dataset, and the code is in [here](./tasks/) .
+We provide baseline implementations and demonstration scripts for all three technical validation tasks for the OBIMD dataset, and the code is in [here](./tasks/) .
 
 ### character-level detection
 We benchmark oracle bone character detection and recognition using a four-way setting across image types (rubbing vs. facsimile) and character types (main vs. sub-character). Models are trained with YOLOv11l and evaluated on mAP, precision, recall, and F1 metrics. Results confirm the dataset’s effectiveness while also revealing difficulties in detecting blurred strokes and handling highly varied character shapes.
