@@ -50,7 +50,7 @@ The dataset follows a three-level hierarchy:
 3. Character annotations: Bounding boxes and classifications
 4. Sentence groupings: Semantic organization of characters
 5. Reading sequences: Order of characters within sentences
-![图片](figures/Pipeline%20for%20constructing.png)
+![图片](figures/pipeline%20for%20constructing.png)
 
 ## Hierarchical Character Metadata Supplement
 
