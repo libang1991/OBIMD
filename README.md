@@ -90,14 +90,14 @@ We assess sequential modeling of oracle bone inscriptions by recovering original
 
 If you use this dataset in your research, please cite:
 
-<!-- ```bibtex
-@article{li2024obimd,
-  title={Oracle Bone Inscriptions Multi-modal Dataset},
-  author={Li, Bang and Luo, Donghao and Liang, Yujie and others},
-  journal={arXiv preprint arXiv:2407.03900},
-  year={2024},
-  url={https://doi.org/10.48550/arXiv.2407.03900}
+```bibtex
+@article{li2026obimd,
+  title={OBIMD: A Multi-modal Dataset for Contextual Interpretation of Oracle Bone Inscriptions},
+  author={Li, Bang and Yang, Jing and Liang, Yujie and Hu, Xiaobin and Ding, Zengmao and Peng, Xu and Han, Shengwei and Qin, Peichao and Luo, Donghao and Jin, Taisong and others},
+  journal={Scientific Data},
+  year={2026},
+  publisher={Nature Publishing Group UK London}
 }
 ```
 ## License
-The dataset is released for academic research purposes only. Commercial use requires special permission from the authors. -->
+The dataset is released for academic research purposes only. Commercial use requires special permission from the authors.
